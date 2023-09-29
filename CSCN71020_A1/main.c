@@ -17,17 +17,16 @@ void main() {
 
 	printf("Enter operation number: ");
 	scanf_s("%1o", &inputNum);
-	scanf_s("%2o", &inputNum);
 
 	switch (inputNum)
 	{
 	case 1:
 		add();
-	}
-	switch (inputNum)
-	{
+		break;
+
 	case 2:
 		subtract();
+		break;
 	}
 
 }
